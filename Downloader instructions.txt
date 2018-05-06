@@ -1,0 +1,18 @@
+Congrats on reading the readme, you are indeed a rare kind of person.
+
+If you download to windows defult download folder:Replace username with your username on computer
+Run the program using the comand java -jar C:\Users\"username"\Downloads\projectdownload.jar
+
+Otherwise use the comand: replace filepath with the path to the directory that contains the file 
+java -jar "Filepath"\projectdownload.jar
+
+When the program runs it will ask for a url to download from
+The program can download individual files expect for images, still trying to figureo out why it only half loads them.
+The program can download webpages however they loose thier formating, all the elements of the page are still usable assuming you have an internet conection.
+The program will ask you for a name and place to save, include the path to the location you want to save to then the name, the desired file extention will have to be added here, 
+or you will have to rename the file later to add it.
+Example
+D:\downloaded\saved\newsave.jar
+
+The program will throw errors if it encounters a probem and tell you what phase of the opertation it encountered the error and the specific error it encountered.
+When this happens the program will continue till it completes operations and the file at the end will be 0 bytes.
